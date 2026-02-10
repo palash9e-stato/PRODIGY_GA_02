@@ -1,8 +1,8 @@
-# Generative AI Image Generator 🎨
+# Generative AI Image Generator 
 
 This project is a simple yet powerful text-to-image generation tool built using Python and the `diffusers` library. It utilizes the **Stable Diffusion v1-5** pre-trained model to create images from text prompts.
 
-## Project Learnings 🧠
+## Project Learnings 
 
 Working on this project provided key insights into the world of Generative AI:
 
@@ -16,7 +16,7 @@ Working on this project provided key insights into the world of Generative AI:
 - Python 3.7+
 - Ideally a machine with an NVIDIA GPU (CUDA support) for faster generation.
 
-## Installation ⚙️
+## Installation 
 
 1.  Clone the repository or download the files.
 2.  Install the required dependencies:
@@ -25,7 +25,7 @@ Working on this project provided key insights into the world of Generative AI:
 pip install -r requirements.txt
 ```
 
-## Usage 🚀
+## Usage 
 
 Run the script from the command line by providing a text prompt:
 
@@ -40,3 +40,4 @@ python ga.py "A serene landscape with mountains" --output "landscape.png"
 ```
 
 The model will be downloaded automatically on the first run (requires ~4-5GB disk space).
+
